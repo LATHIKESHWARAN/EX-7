@@ -1,12 +1,12 @@
 # EX-7 IMPLEMENTATION OF TRACEROUTE COMMAND
 
-# DATE : 20.04.2023
+## DATE : 20.04.2023
 
 
-# AIM :
-#### To write the python program for simulating Traceroute command
+## AIM :
+To write the python program for simulating Traceroute command
 
-# ALGORITHM :
+## ALGORITHM :
 
 #### 1. Start the program.
 #### 2.Get the frame size from the user.
@@ -17,20 +17,20 @@
 
 
 
-# PROGRAM :
+## PROGRAM :
 ```PY
-## Developed : Kavinraja D
-## Reg no : 212222240047
+## Developed : LAHTIKESHWARAN J
+## Reg no : 212222230072
 from scapy.all import*
 target = ["www.google.com"]
 result, unans = traceroute(target,maxttl=32)
 print(result,unans)
 ```
-# OUTPUT :
+## OUTPUT :
 
 ![output](./output.png)
 
 
-# RESULT:
+## RESULT:
 #### Thus, the python program for simulating Traceroute command was successfully executed.
 
