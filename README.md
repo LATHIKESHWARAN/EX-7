@@ -19,7 +19,7 @@ To write the python program for simulating Traceroute command
 
 ## PROGRAM :
 ```PY
-## Developed : LAHTIKESHWARAN J
+## Developed : LAHTHIKESHWARAN J
 ## Reg no : 212222230072
 from scapy.all import*
 target = ["www.google.com"]
